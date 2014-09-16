@@ -57,11 +57,15 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
     <Content Include="css\component.css" />
     <Content Include="css\demo.css" />
     <Content Include="css\fotorama.css" />
+    <Content Include="css\icon.css" />
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
     <Content Include="fonts\.DS_Store" />
     <Content Include="fonts\codropsicons\codropsicons.eot" />
     <Content Include="fonts\codropsicons\codropsicons.ttf" />
@@ -86,12 +90,25 @@
     <Content Include="images\fotorama%402x.png" />
     <Content Include="images\fotorama.png" />
     <Content Include="images\hipsterbadge.png" />
+    <Content Include="img\cd-icon-menu.svg" />
+    <Content Include="img\cd-logo.svg" />
+    <Content Include="img\cd-nav-icons.svg" />
+    <Content Include="img\fb1.png" />
+    <Content Include="img\intro-background.jpg" />
+    <Content Include="img\li1.png" />
+    <Content Include="img\music.gif" />
+    <Content Include="img\pin1.png" />
+    <Content Include="img\rss1.png" />
+    <Content Include="img\tm1.png" />
+    <Content Include="img\tw1.png" />
+    <Content Include="img\vm1.png" />
+    <Content Include="img\wp1.png" />
     <Content Include="index.html" />
-    <Content Include="js\classie.js" />
+    <Content Include="index1.html" />
+    <Content Include="indexforicons.html" />
     <Content Include="js\fotorama.js" />
     <Content Include="js\main.js" />
-    <Content Include="js\menu.js" />
-    <Content Include="js\modernizr.custom.25376.js" />
+    <Content Include="js\modernizr.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

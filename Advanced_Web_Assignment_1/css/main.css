@@ -1,21 +1,43 @@
 ﻿body {
+    background-color:white;
 }
 
 /* Effect airbnb */
 .effect-airbnb {
 	background: #e86a32;
 }
+#cd-placeholder-1{
+    background-color:#d5d5d5;
+}
+#cd-placeholder-3{
+    background-color:#d5d5d5;
+}
+#cd-placeholder-5{
+    background-color:#d5d5d5;
+}
+.cd-container{
+    max-width:none;
+    background-color:white;
+    width:100%;
+}
 
-img {
-    display: block;
+.codrops-header{
+    padding:1em;
+    margin:0px auto 0px;
+}
+
+#imageBadge {
+    display:block;
     margin-left: auto;
     margin-right: auto;
-    margin-top:2%;
+    margin-top:1%;
+    max-height:15%;
+    max-width:30%;
 }
 .codrops-header span{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: auto 50%;
+    margin-right: auto 25%;
 }
 
 .codrops-demos a, button{
