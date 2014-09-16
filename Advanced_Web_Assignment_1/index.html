@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
-		<title>Portfolio</title>
+		<title>Portfolios</title>
 		<meta name="description" content="Perspective Page View Navigation: Transforms the page in 3D to reveal a menu" />
 		<meta name="keywords" content="3d page, menu, navigation, mobile, perspective, css transform, web development, web design" />
 		<meta name="author" content="Codrops" />
@@ -13,41 +13,95 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
         <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+        <link href="css/fotorama.css" rel="stylesheet" />
+        
+
 		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load --> 
 		<script src="js/modernizr.custom.25376.js"></script>
 	</head>
 	<body>
+        
 		<div id="perspective" class="perspective effect-airbnb">
+            <button class="fixed" id="showMenu">Menu</button>	
 			<div class="container">
+
+                
+
 				<div class="wrapper"><!-- wrapper needed for scroll -->
 					<!-- Top Navigation -->
-					<div class="codrops-top clearfix">
-						<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/Development/ProgressButtonStyles/"><span>Previous Demo</span></a>
-						<span class="right"><a class="codrops-icon codrops-icon-drop" href="http://tympanus.net/codrops/?p=17915"><span>Back to the Codrops Article</span></a></span>
-					</div>
+                
+                    
+                    
+                    
+                <img id="imageBadge" src="images/hipsterbadge.png" width="400" height="300"/>
 					<header class="codrops-header">
-						<h1>Perspective Page View Navigation <span>Transforms the page in 3D to reveal a menu</span></h1>	
-					</header>
+
+                        <!-- 1. Link to jQuery (1.8 or later), -->
+                        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+                        <!-- fotorama.css & fotorama.js. -->
+                        <link href="css/fotorama.css" rel="stylesheet" />
+                        <script src="js/fotorama.js"></script>
+                        <!-- 2. Add images to <div class="fotorama"></div>. -->
+                        <div class="fotorama"
+                             data-nav="thumbs"
+                             data-width="100%"
+                             data-ratio="8/6"
+                             data-keyboard="true"
+                             data-autoplay="true"
+                             data-arrows="true"
+                             data-loop="True"
+                             data-click="true"
+                             data-maxheight="75%">
+                            <!--data-maxheight="75%"-->
+
+
+                            <img src="images/Fireworks%20012.JPG" />
+                            <img src="images/Fireworks%20011.JPG" />
+                        </div>
+                        
+
+                            <!-- 3. Enjoy! -->
+
+                            <h1>Benjamin Vanarragon <span>Programmer by Day || Gamer by Night</span></h1>
+</header>
 					<div class="main clearfix">
 						<div class="column">
-							<p><button id="showMenu">Show Menu</button></p>
-							<p>Click on this button to see the content being pushed away in 3D to reveal a navigation or other items.</p>
+							<p>yo yo yo</p>
 						</div>
 						<div class="column">
 							<nav class="codrops-demos">
-								<a href="index.html" class="current-demo">Airbnb Effect</a>
-								<a href="index2.html">Move Left</a>
-								<a href="index3.html">Rotate Left</a>
-								<a href="index4.html">Move Down</a>
-								<a href="index5.html">Rotate Top</a>
-								<a href="index6.html">Lay Down</a>
+                                <p>yo yo yo</p>
 							</nav>
 						</div>
-						<div class="related">
-							<p>If you enjoyed this demo you might also like:</p>
-							<p><a href="http://tympanus.net/Tutorials/AnimatedBorderMenus/">Animated Border Menus</a></p>
-							<p><a href="http://tympanus.net/Development/SidebarTransitions/">Transitions for Off-Canvas Navigations</a></p>
-						</div>
+                    <div class="related">
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                        <p>hello</p>
+                    </div>
+						
 					</div><!-- /main -->
 				</div><!-- wrapper -->
 			</div><!-- /container -->
@@ -63,5 +117,7 @@
 		</div><!-- /perspective -->
 		<script src="js/classie.js"></script>
 		<script src="js/menu.js"></script>
+
+        <script src="js/fotorama.js"></script>
 	</body>
 </html>

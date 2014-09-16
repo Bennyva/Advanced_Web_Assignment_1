@@ -5,3 +5,47 @@
 .effect-airbnb {
 	background: #e86a32;
 }
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:2%;
+}
+.codrops-header span{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.codrops-demos a, button{
+    margin-left:1%;
+  
+     
+}
+
+#showMenu{
+    position:fixed;
+}
+
+.fixed{
+
+  left: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99; 
+  
+}
+
+.wrapper {
+ margin: 0 auto;
+ position:relative;
+ clear:both;
+ overflow:auto;
+ 
+}
+
+
+
+
+

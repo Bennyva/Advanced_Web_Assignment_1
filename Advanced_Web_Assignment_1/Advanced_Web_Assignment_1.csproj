@@ -59,6 +59,7 @@
   <ItemGroup>
     <Content Include="css\component.css" />
     <Content Include="css\demo.css" />
+    <Content Include="css\fotorama.css" />
     <Content Include="css\main.css" />
     <Content Include="css\normalize.css" />
     <Content Include="fonts\.DS_Store" />
@@ -80,8 +81,15 @@
     <Content Include="fonts\codropsicons\license.txt" />
     <Content Include="fonts\typicons\license.txt" />
     <Content Include="fonts\typicons\typicons.svg" />
+    <Content Include="images\Fireworks 011.JPG" />
+    <Content Include="images\Fireworks 012.JPG" />
+    <Content Include="images\fotorama%402x.png" />
+    <Content Include="images\fotorama.png" />
+    <Content Include="images\hipsterbadge.png" />
     <Content Include="index.html" />
     <Content Include="js\classie.js" />
+    <Content Include="js\fotorama.js" />
+    <Content Include="js\main.js" />
     <Content Include="js\menu.js" />
     <Content Include="js\modernizr.custom.25376.js" />
     <Content Include="Web.config" />
